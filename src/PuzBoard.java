@@ -22,7 +22,7 @@ public class PuzBoard {
         int width = position.get(0).size();
         int height = position.size();
 
-        if (!checkIfValid(width, height, x, y)) {
+        if (!checkIfValid(width, height, position, x, y)) {
             return false;
         }
 
@@ -37,13 +37,13 @@ public class PuzBoard {
         return true;
     }
 
-    private boolean checkIfValid(int width, int height, int x, int y) {
+    private boolean checkIfValid(int width, int height, List<List<Character>> position, int x, int y) {
         if (x < 0 || y < 0 || x + width > this.board.get(0).size() || y + height > this.board.size()) {
             return false;
         }
         for (int i = 0; i < width; ++i) {
             for (int j = 0; j < height; ++j) {
-                if (this.board.get(y + j).get(x + i) != Main.EMPTY) {
+                if (this.board.get(y + j).get(x + i) != Main.EMPTY && position.get(j).get(i) != Main.EMPTY) {
                     return false;
                 }
             }

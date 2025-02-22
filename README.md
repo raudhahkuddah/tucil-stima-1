@@ -1,5 +1,13 @@
 # tucil-stima-1
 
+## TO DO
+- Buat iteration counter dan print di hasil akhir
+- Buat timer dan print di hasil akhir
+- Buat prompt nanya (Y/N) yang menanyakan apakah solusi akan disave menjadi file txt atau tidak
+- Save hasil (board.print()) ke dalam file .txt
+- Buat laporan
+- Buat 7 variasi soal lainnya
+
 ## Penjelasan Singkat
 
 ## Requirement Program
