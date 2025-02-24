@@ -1,9 +1,9 @@
 package src;
 
-import java.util.List;
-import java.util.Set;
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 public class PuzPiece {
     public char c;
@@ -14,6 +14,7 @@ public class PuzPiece {
         this.positions = getPositions(lines);
         this.positions = goByeBye(this.positions);
 
+        
     }
 
     private List<List<List<Character>>> getPositions(List<String> lines) {

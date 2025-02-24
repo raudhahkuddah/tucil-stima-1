@@ -1,30 +1,28 @@
 # tucil-stima-1
 
-## TO DO
-- Buat iteration counter dan print di hasil akhir
-- Buat timer dan print di hasil akhir
-- Buat prompt nanya (Y/N) yang menanyakan apakah solusi akan disave menjadi file txt atau tidak
-- Save hasil (board.print()) ke dalam file .txt
-- Buat laporan
-- Buat 7 variasi soal lainnya
-
 ## Penjelasan Singkat
+Program ini merupakan program yang digunakan untuk mencari solusi dari IQ Puzzler Pro dengan 
+menggunakan algoritma Brute Force.
 
 ## Requirement Program
-ini make java
+Pastikan perangkat yang digunakan sudah memiliki java dan jar. Untuk mengeceknya dapat dilakukan dengan 
+menjalankan prompt berikut
 
 ```sh
 java --version
+jar --version
 ```
 ## Cara Mengkompilasi
-javac -d bin blalbalba
-jar blablal
-(buat file .jar)
+Untuk mengkompilasi program ini, jalankan prompt
+cd C:\Users\LEGION\OneDrive\Documents\tucil-stima-1
+javac -d bin src\*.java
+cls
+java -cp bin src.Main
+jar cfm Run.jar ./MANIFEST.MF *.class
 
 ## Cara Menjalankan
-java <file.jar>
-txt disimpen dimana (di folder test)
-nama txt harus gimana
+cd bin/src
+java -jar Run.jar
 
 ## Author
-nama nim
+Raudhah Yahya Kuddah dengan NIM 13122003 dari Prodi Teknik Mesin dari K2

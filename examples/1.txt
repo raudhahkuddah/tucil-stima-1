@@ -1,0 +1,9 @@
+3 3 3
+DEFAULT
+J
+J
+JJ
+YY
+ Y
+ Y
+Z
