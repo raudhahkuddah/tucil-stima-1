@@ -113,7 +113,7 @@ public class PuzBoard {
         directory.mkdir(); 
     }
 
-    File file = new File(directory, "solution.txt"); 
+    File file = new File(directory, Main.filePath); 
 
     try (FileWriter writer = new FileWriter(file)) {
         writer.write(content);

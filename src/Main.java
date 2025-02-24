@@ -7,11 +7,12 @@ import java.util.Stack;
 public class Main{
     public static final char EMPTY = '.';
     public static Stack<PuzBoard> solutions = new Stack<>();
+    public static String filePath;
    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the input file path: ");
-        String filePath = scanner.nextLine(); 
+        filePath = scanner.nextLine(); 
 
         Input.read("./examples/" + filePath);
         findSolution();
